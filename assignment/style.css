@@ -9,3 +9,44 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", serif;
+    background-color: lightskyblue;
+}
+#container {
+    text-align: left;
+    color: #0F2238;
+    margin: 0 auto;
+}
+
+#content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 12px 32px;;
+    width: 100%;
+    background-color: azure;
+}
+img {
+    max-width: 75%;
+    max-height: auto;
+    border: 1px solid black;
+}
+#barbados figcaption {
+    font-size: 12px;
+}
+
+p {
+    color: rgb(127, 193, 255);
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
